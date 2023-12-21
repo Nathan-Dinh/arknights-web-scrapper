@@ -24,7 +24,7 @@ If you would like to use this script, please follow these steps.
 1. Clone the repository:
 
 ```bash
-git clone 
+git clone https://github.com/Nathan-Dinh/arknights-web-scrapper.git
 ```
 
 2. Install the needed packages 

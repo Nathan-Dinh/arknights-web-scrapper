@@ -10,7 +10,7 @@ This is just a basic learning project to familiarize myself with Python and web 
 
 ## Project Description
 ### Overview:
-This Python script automates the process of collecting specific data elements from a target website.
+This Python script automates collecting specific data elements from a target website. This script uses MongoDB to store the information.
 
 ### Purpose:
 The goal is to learn core web scraping/crawling skills using Python libraries like BeautifulSoup and Requests.
@@ -20,7 +20,7 @@ The script takes a starting URL as input. It crawls the site recursively by foll
 
 **Disclamer**: 
 This is for educational and demonstrative purposes. I have no affiliation with the site and neither 
-I nor the software would be held liable for any consequences resulting from its use.
+Neither I nor the software would be held liable for any consequences of its use.
 
 ## Installation
 

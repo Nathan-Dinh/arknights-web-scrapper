@@ -47,6 +47,8 @@ pip install pymongo
 ```
 
 3. Connect your Mongodb database to your application
+   
+4. Run python script 
 
 ## Technologies Used
 

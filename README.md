@@ -1,6 +1,6 @@
 # Gamepress Arknights Web Scrapper
 
-A simple Python script that gets arknights operators' information from gamepress website 
+This is just a basic learning project to familiarize myself with Python and web scraping.
 
 ## Table of Contents
 
@@ -9,13 +9,18 @@ A simple Python script that gets arknights operators' information from gamepress
 - [Technologies Used](#Technologies-Used)
 
 ## Project Description
+### Overview:
+This Python script automates collecting specific data elements from a target website. This script uses MongoDB to store the information.
 
-This is just a small project that I wanted to make as an introduction to Python. The information this script is getting is 
-from a mobile game called Arknights.
+### Purpose:
+The goal is to learn core web scraping/crawling skills using Python libraries like BeautifulSoup and Requests.
+
+### Functionality:
+The script takes a starting URL as input. It crawls the site recursively by following links, identifies key data fields using CSS/XPath selectors, and downloads/processes each page. 
 
 **Disclamer**: 
-This is for educational and demonstrative purposes. I have no affiliation with the site, and neither 
-I nor the software would be held liable for any consequences resulting from its use
+This is for educational and demonstrative purposes. I have no affiliation with the site and neither 
+Neither I nor the software would be held liable for any consequences of its use.
 
 ## Installation
 
@@ -24,7 +29,7 @@ If you would like to use this script, please follow these steps.
 1. Clone the repository:
 
 ```bash
-git clone 
+git clone https://github.com/Nathan-Dinh/arknights-web-scrapper.git
 ```
 
 2. Install the needed packages 
@@ -42,6 +47,8 @@ pip install pymongo
 ```
 
 3. Connect your Mongodb database to your application
+   
+4. Run python script 
 
 ## Technologies Used
 

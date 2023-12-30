@@ -98,12 +98,11 @@ for link in operatorUrls :
     req = requests.get(config['DOMAIN_NAME'] + link['href'])
     operatorProfilePage = BeautifulSoup(req.content, "html.parser")
     try:
-        operatorInformation = get_operator_information(operatorProfilePage)
-        save_operator(operatorInformation)
+        save_operator(get_operator_information(operatorProfilePage))
     except ValueError as e:
         print(str(e) + ": Could not be saved")
     break
-        
+
 reqSkinListPage = requests.get(config['DOMAIN_NAME'] + config['SKIN_LIST_URL'])
 ctxSkinListHtml = BeautifulSoup(reqSkinListPage.content, "html.parser")
 ctxSkinListHtml = ctxSkinListHtml.find(id="topic-511941")

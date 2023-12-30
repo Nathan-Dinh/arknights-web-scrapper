@@ -116,8 +116,6 @@ for row in ctxTableRows:
         print(str(e) + ": Could not be saved")
     break
 
-# for link in skinLink:
-#     print(link.get_text())
 
         
     

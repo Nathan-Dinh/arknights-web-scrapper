@@ -107,21 +107,11 @@ reqSkinListPage = requests.get(config['DOMAIN_NAME'] + config['SKIN_LIST_URL'])
 ctxSkinListHtml = BeautifulSoup(reqSkinListPage.content, "html.parser")
 ctxSkinListHtml = ctxSkinListHtml.find(id="topic-511941")
 ctxSkinListHtml = ctxSkinListHtml.find('tbody')
-ctxTableRows = ctxSkinListHtml.find_all('tr')
+tableRows = ctxSkinListHtml.find_all('tr')
 
-for row in ctxTableRows:
+for row in tableRows:
     try:
         save_skin(get_skin_information(row))
     except ValueError as e:
         print(str(e) + ": Could not be saved")
     break
-
-
-        
-    
-
-
-
-
-
-    

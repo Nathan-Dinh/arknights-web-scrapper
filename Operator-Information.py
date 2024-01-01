@@ -8,7 +8,7 @@ from dotenv import dotenv_values
 
 #region Configuration 
 # Imports all variables from .env file 
-config = {**dotenv_values("./config/.env.secret")}
+config = {**dotenv_values(".env")}
 
 # Connect your application to your database
 client = MongoClient(config['MONGODB_CONNECTION_STRING'])

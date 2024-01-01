@@ -1,4 +1,4 @@
-# Gamepress Arknights Web Scrapper
+#Arknights Gamepress Web Scrapper
 
 This is just a basic learning project to familiarize myself with Python and web scraping.
 

@@ -46,9 +46,20 @@ pip install requests
 pip install pymongo
 ```
 
-3. Connect your Mongodb database to your application
+3. Connect your Mongodb database to your application by adding your connection string to the .env file
+
+     ```dotenv
+     MONGODB_CONNECTION_STRING = "<Add your string here>"
+     DATABASE_NAME = "Arknights"
+     OPERATORS_COLLECTION = "Operators"
+     SKINS_COLLECTION = "Skins"
+
+     DOMAIN_NAME = "https://gamepress.gg"
+     OPERATOR_LIST_URL = "/arknights/tools/interactive-operator-list#tags=null##stats"
+     SKIN_LIST_URL = "/arknights/database/skin-list"
+     ````
    
-4. Run python script 
+5. Run python script 
 
 ## Technologies Used
 

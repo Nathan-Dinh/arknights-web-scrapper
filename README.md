@@ -28,23 +28,23 @@ If you would like to use this script, please follow these steps.
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/Nathan-Dinh/arknights-web-scrapper.git
-```
+     ```bash
+     git clone https://github.com/Nathan-Dinh/arknights-web-scrapper.git
+     ```
 
 2. Install the needed packages 
 
-```shell
-pip install beautifulsoup4
-```
+     ```shell
+     pip install beautifulsoup4
+     ```
 
-```shell
-pip install requests
-```
+     ```shell
+     pip install requests
+     ```
 
-```shell
-pip install pymongo
-```
+     ```shell
+     pip install pymongo
+     ```
 
 3. Connect your Mongodb database to your application by adding your connection string to the .env file
 
